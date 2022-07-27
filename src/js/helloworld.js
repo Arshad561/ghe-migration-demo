@@ -9,4 +9,14 @@ function add(num1, num2) {
   }
 }
 
+function difference(num1, num2) {
+  if (typeof num1 === 'number' && typeof num2 === 'number') {
+    const diff = num1 - num2;
+    console.log(`The difference of ${num1} and ${num2} is ${diff}`);
+  } else {
+    console.log('Please provide valid numbers');
+  }
+}
+
 add(2, 3);
+difference(10, -100);
