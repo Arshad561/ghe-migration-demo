@@ -1,0 +1,19 @@
+{
+  "name": "ghe-migration-demo",
+  "version": "1.0.0",
+  "description": "Sample repo to test migration from github to github enterprise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/js/helloworld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arshad561/ghe-migration-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arshad561/ghe-migration-demo/issues"
+  },
+  "homepage": "https://github.com/Arshad561/ghe-migration-demo#readme"
+}
